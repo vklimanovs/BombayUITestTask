@@ -1,0 +1,11 @@
+{
+  "compilerOptions": {
+    "lib": ["dom", "ES6"],
+    "types": ["cypress", "node"],
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+    "sourceMap": false,
+    "declaration": false
+  },
+  "include": ["**/*.ts", "scripts/split_features.js"]
+}
