@@ -20,8 +20,8 @@ export default defineConfig({
   videoCompression: 32,
   experimentalWebKitSupport: true,
   e2e: {
-    baseUrl: "https://pos-dev.erply.com/latest/",
+    baseUrl: "https://bombaylobby.com/",
     supportFile: "cypress/support/e2e.ts",
-    specPattern: "cypress/e2e/**/*.{js,jsx,ts,tsx}",
+    specPattern: "cypress/e2e/*.{js,jsx,ts,tsx}",
   },
 });
