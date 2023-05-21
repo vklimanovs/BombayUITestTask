@@ -7,5 +7,5 @@
     "sourceMap": false,
     "declaration": false
   },
-  "include": ["**/*.ts", "scripts/split_features.js"]
+  "include": ["**/*.ts"]
 }

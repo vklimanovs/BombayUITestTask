@@ -37,5 +37,3 @@ export class MenuModal {
 
 export const menuModal = new MenuModal();
 
-// There are two buttons with the same data-test-id but the class for one is green
-// also I could do this way cy.get('button.button.green[data-test-id="button-click-edit-username-in-settings"]').click();
